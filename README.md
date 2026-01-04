@@ -1,24 +1,33 @@
-# Quasar App (ai-chatroom-assignment)
+# Nitra AI ChatRoom Assignment
 
-This is the basic setup for the AI Chatroom Assignment. You can use it as a starting point to implement the requirements and bring in any libraries you’re comfortable with.
+## 🚀 Getting Started
 
-## Install the dependencies
+### Install Dependencies
 ```bash
-yarn
-# or
 npm install
+# or
+yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Development Mode
+Start app:
 ```bash
-quasar dev
+yarn dev
+# or
+npm run dev
 ```
 
-
-### Build the app for production
+### Production Build
+Build application:
 ```bash
-quasar build
+yarn build
+# or
+npm run build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+## Project Structure
+
+- `src/components/`: Core chat components (`ChatWindow`, `ChatInput`, `ChatMessage`).
+- `src/assets/`: Custom SVG icons and brand assets.
+- `public/`: Branded favicon and static assets.
+- `src/mock/`: Mocked AI responses for demonstration.
